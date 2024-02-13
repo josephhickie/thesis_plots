@@ -1,0 +1,62 @@
+{
+    "data_shape": [
+        100,
+        100
+    ],
+    "set_variable_names": [
+        "dac9",
+        "comp12"
+    ],
+    "axis": [
+        [
+            "dac9",
+            "comp12",
+            "A"
+        ],
+        [
+            "dac9",
+            "comp12",
+            "B"
+        ],
+        [
+            "dac9",
+            "comp12",
+            "C"
+        ],
+        [
+            "dac9",
+            "comp12",
+            "D"
+        ]
+    ],
+    "additional_metadata_dict": {},
+    "screenshot_saved": false,
+    "time_of_measurement": "Thu, 21 Dec 2023 09:33:55 +0000",
+    "instrument_summary": {
+        "date_time": "2023-12-21 09:33:55.859473",
+        "dac": {
+            "dac1": 0.0,
+            "dac2": 0.0,
+            "dac3": 0.030518,
+            "dac4": 0.030518,
+            "dac5": 1251.361868,
+            "dac6": 1072.404059,
+            "dac7": 1305.683986,
+            "dac8": 1579.980163,
+            "dac9": 1480.003052,
+            "dac10": 2257.72488,
+            "dac11": 917.00618,
+            "dac12": 2300.93843,
+            "dac13": 1300.00763,
+            "dac14": 0.0,
+            "dac15": 0.0,
+            "dac16": 1579.980163
+        },
+        "AWG5204": {
+            "channel 0": 4.0,
+            "channel 1": 4.0,
+            "channel 2": 4.0,
+            "channel 3": 4.0
+        }
+    }
+}
