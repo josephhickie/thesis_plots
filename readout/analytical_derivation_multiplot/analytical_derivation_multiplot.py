@@ -261,3 +261,22 @@ plt.figure(figsize=FIGSIZE)
 plt.plot(v_rfs, noise_decay/np.trapz(noise_decay, v_rfs))
 plt.show()
 
+
+fig, axs = plt.subplots(2, 2)
+
+# create a horizontal plot
+axs[0, 0].plot(v_rfs, deltas)
+axs[0, 0].plot(v_rfs, exp)
+# create a vertical plot
+axs[1, 0].plot(v_rfs, noise_meas)
+
+
+
+# create a horizontal plot
+axs[0, 1].plot(v_rfs, noise_decay)
+
+
+# create a vertical plot
+axs[1, 1].plot(v_rfs, noise_decay/np.trapz(noise_decay, v_rfs))
+
+plt.show()
