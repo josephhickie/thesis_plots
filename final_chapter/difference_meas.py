@@ -109,9 +109,9 @@ for ax in [axs[0,0], axs[0, 1], axs[1, 1]]:
     ax.set_aspect('equal', 'box')
 
 
-plt.tight_layout()
-plt.savefig('./difference_figure.svg')
-plt.savefig('./difference_figure.pdf')
+# plt.tight_layout()
+# plt.savefig('./difference_figure_i.svg')
+# plt.savefig('./difference_figure_i.pdf')
 plt.show()
 
 
